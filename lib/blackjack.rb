@@ -24,11 +24,11 @@ end
 
 def initial_round
   # code #initial_round here
-end
+
 
 def hit?
   # code hit? here
-end
+
 
 def invalid_command
   # code invalid_command here
