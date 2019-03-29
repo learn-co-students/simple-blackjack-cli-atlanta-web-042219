@@ -42,7 +42,7 @@ def hit?(number)
   prompt_user
   input = get_user_input
   if input != 'h' && input != 's'
-    #invalid_command
+    invalid_command
   end
   if input == 'h'
     number += deal_card
