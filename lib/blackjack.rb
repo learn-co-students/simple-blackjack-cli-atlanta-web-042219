@@ -66,7 +66,6 @@ def runner
   hand = initial_round
   while hand < 22
     hand = hit?(hand)
-    break if hand > 21
   end
   end_game(hand)
 end
