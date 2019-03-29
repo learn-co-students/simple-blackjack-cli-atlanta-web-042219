@@ -64,7 +64,7 @@ def runner
   # code runner here
   welcome
   hand = initial_round
-  loop do
+  while hand < 22
     hand = hit?(hand)
     break if hand > 21
   end
