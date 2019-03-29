@@ -68,6 +68,6 @@ def runner
     hand = hit?(hand)
     break if hand > 21
   end
-  end_game
+  end_game(hand)
 end
     
